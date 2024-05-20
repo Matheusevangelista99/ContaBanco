@@ -14,8 +14,7 @@ public class ContaTerminal {
 		System.out.print("Agencia: ");
 		String agencia = sc.next();
 		System.out.print("Nome: ");
-		String nomeCliente = sc.nextLine();
-		sc.nextLine();
+		String nomeCliente = sc.next();
 		System.out.print("Saldo: ");
 		double saldo = sc.nextDouble();
 
